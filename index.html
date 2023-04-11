@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>使用 Deep Link 打开 App</title>
+</head>
+<body>
+	<h1>使用 Deep Link 打开 App</h1>
+	<button onclick="openApp1()">打开 App1</button>
+	<button onclick="openApp2()">打开 App2</button>
+
+	<script>
+		function openApp1() {
+			window.location.href = "app1://open";
+		}
+
+		function openApp2() {
+			window.location.href = "app2://open";
+		}
+	</script>
+</body>
+</html>
